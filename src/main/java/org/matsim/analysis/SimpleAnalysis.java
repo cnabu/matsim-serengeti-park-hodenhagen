@@ -5,7 +5,7 @@ import org.matsim.core.events.EventsUtils;
 public class SimpleAnalysis {
     public static void main(String[] args){
 
-        var handler = new SimplePersonEventHandler();
+        var handler = new LinkEventHandler2();
         var manager = EventsUtils.createEventsManager();
         manager.addHandler(handler);
 
